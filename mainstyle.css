@@ -17,13 +17,13 @@ h1{
     text-shadow: 4px 4px 0px rgba(0,0,0,0.1);;
     color: #71ceb4;
     font-size: 130px;
-    margin: 0;
+    margin-bottom: 0;
 }
 
 #main{
     width: 500px;
     height: 600px;
-    margin: 25px auto;
+    /*margin: 25px auto;*/
 }
 
 img{
