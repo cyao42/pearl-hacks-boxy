@@ -1,5 +1,4 @@
 #tags{
-  float:left;
   border:1px;
   padding:5px;
   font-family:Arial;
@@ -81,3 +80,14 @@ body {
   background-color: #f7f4ed;
 }
 
+
+#findBtn{
+  color: #fff;
+  font-size: 120%;
+  border:0;
+  width: 10rem;
+  height: 5rem;
+  background-color: #594826;
+  margin-left: 3%;
+  margin-top: 2%;
+}
