@@ -43,7 +43,8 @@ html {
 }
 
 .btn {
-
+  border:#000000;
+  border-width:4px;
   -webkit-border-radius: 6;
   -moz-border-radius: 6;
   border-radius: 6px;
