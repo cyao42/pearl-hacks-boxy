@@ -16,14 +16,14 @@ h1{
     font-family: Oleo Script;
     text-shadow: 4px 4px 0px rgba(0,0,0,0.1);;
     color: #71ceb4;
-    font-size: 130px;
+    font-size: 100px;
     margin-bottom: 0;
 }
 
 #main{
     width: 500px;
     height: 600px;
-    /*margin: 25px auto;*/
+    margin: 25px auto;
 }
 
 img{
@@ -59,7 +59,7 @@ html {
   background: #ffffff;
   padding: 20px 20px 20px 20px;
   text-decoration: none;
-  margin-bottom: -20px;
+  margin:0;
 }
 
 .btn:hover {
