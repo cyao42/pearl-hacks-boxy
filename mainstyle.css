@@ -91,6 +91,10 @@ html {
     }
 
     html{
+    background: url(http://www.bittbox.com/caleb/free_high_res_texture_55.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
         background-size: cover
     }
     .btn {
