@@ -230,6 +230,7 @@ html {
     }
     .lostfoundform{
       display:inline-block;
+      max-width:100%;
     }
     #main{
       display:inline-block;
