@@ -144,7 +144,6 @@ html {
 #tags span.tag{
   cursor:pointer;
   display:inline-block;
-  /*float:left;*/
   color: #594826;
   background:#B6AD9A;
   padding:5px;
@@ -167,7 +166,8 @@ html {
   border:0;
   margin:4px;
   padding:7px;
-  height: 50px;
+  border-radius:5px;
+  height: 40px;
   width:auto;
   font-size:100%;
 }
