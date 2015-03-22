@@ -216,3 +216,23 @@ html {
       width:100%;
     }
 }
+
+@media screen and (max-width:450px){
+    html{
+        background-size: cover
+    }
+    h1{
+      font-size: 80px;
+    }
+    .btn {
+        max-width:100%;
+        padding: 3px 1em;
+    }
+    .lostfoundform{
+      display:inline-block;
+    }
+    #main{
+      display:inline-block;
+      max-width:100%;
+    }
+}
