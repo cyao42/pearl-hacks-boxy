@@ -32,6 +32,7 @@ h1{
 .lostfoundform {
   text-align: center
   width:800px;
+  font: Georgia;
   /*padding: 33px 25px 29px;*/
   background: #ccbc9b;
   border-bottom: 1px solid #c4c4c4;
@@ -136,8 +137,9 @@ html {
 #tags{
   font-size:20px;
   border:1px;
-  padding:5px;
+  padding:10px;
   font-family:Arial;
+  border-radius: 5px ;
 }
 #tags span.tag{
   cursor:pointer;
