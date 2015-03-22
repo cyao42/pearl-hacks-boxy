@@ -16,14 +16,89 @@ h1{
     font-family: Oleo Script;
     text-shadow: 4px 4px 0px rgba(0,0,0,0.1);;
     color: #71ceb4;
-    font-size: 120px;
+    font-size: 150px;
     margin: 0;
 }
 
 #main{
-    width: 500px;
+    font-family: Georgia;
+    font-size: 35px;
+    color: #151d42;
+    width: 800px;
     height: 600px;
     margin: 25px auto;
+}
+
+.lostfoundform {
+  text-align: center
+  width:800px;
+  /*padding: 33px 25px 29px;*/
+  background: #ccbc9b;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius:10px;
+  @include box-shadow(0 1px 5px rgba(black, .25));
+}
+
+.itemshort{
+  height:50px;
+  width:400px;
+  font-size:20px;
+  border-radius:5px;
+}
+
+.itemdescrip{
+  height:50px;
+  width:400px;
+  font-size:20px;
+  border-radius:5px;
+}
+
+.wherelost{
+  height:50px;
+  width:400px;
+  font-size:20px;
+  border-radius:5px;
+}
+
+.whenlost{
+  height:50px;
+  width:400px;
+  font-size:20px;
+  border-radius:5px;
+}
+
+.name{
+  height:50px;
+  width:400px;
+  font-size:20px;
+  border-radius:5px;
+}
+
+.email{
+  height:50px;
+  width:400px;
+  font-size:20px;
+  border-radius:5px;
+}
+
+
+
+.submit-button {
+  position: relative;
+  vertical-align: top;
+  width: 400px;
+  height: 54px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(black, .25);
+  background: #c0484a;
+  border: 0;
+  border-bottom: 2px solid #c0484a;
+  border-radius: 5px;
+  cursor: pointer;
+  @include box-shadow(inset 0 -2px #d76b60);
 }
 
 img{
@@ -43,7 +118,6 @@ html {
 }
 
 .btn {
-
   -webkit-border-radius: 6;
   -moz-border-radius: 6;
   border-radius: 6px;
@@ -59,24 +133,84 @@ html {
   text-decoration: none;
 }
 
+#tags{
+  font-size:20px;
+  border:1px;
+  padding:5px;
+  font-family:Arial;
+}
+#tags span.tag{
+  cursor:pointer;
+  display:inline-block;
+  /*float:left;*/
+  color: #594826;
+  background:#B6AD9A;
+  padding:5px;
+  padding-right:25px;
+  margin:4px;
+}
+#tags span.tag:hover{
+  opacity:0.7;
+}
+#tags span.tag:after{
+ position:absolute;
+ content:"x";
+ border:1px solid;
+ padding:0 4px;
+ margin:3px 0 10px 5px;
+ font-size:20px;
+}
+#tags input{
+  background:#fff;
+  border:0;
+  margin:4px;
+  padding:7px;
+  height: 50px;
+  width:auto;
+  font-size:100%;
+}
+
 .btn:hover {
   background: #f2f21b;
   text-decoration: none;
 }
 
-@media screen and (max-width:592px){
-    h1{
-        font-size:70px;
-    }
-
+@media screen and (max-width:800px){
     html{
         background-size: cover
     }
+    h1{
+      font-size: 120px;
+    }
     .btn {
-        display: inline-block;
         max-width:100%;
         padding: 3px 1em;
-        font-size:43px;
-        padding: 22px 22px 22px 22px;
+    }
+    .lostfoundform{
+      display:inline-block;
+    }
+    #main{
+      display:inline-block;
+      width:100%;
+    }
+}
+
+@media screen and (max-width:592px){
+    html{
+        background-size: cover
+    }
+    h1{
+      font-size: 80px;
+    }
+    .btn {
+        max-width:100%;
+        padding: 3px 1em;
+    }
+    .lostfoundform{
+      display:inline-block;
+    }
+    #main{
+      display:inline-block;
+      width:100%;
     }
 }
