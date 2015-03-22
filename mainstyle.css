@@ -80,8 +80,8 @@ html {
         max-width:100%;
         height: 30px;
         padding: 3px 1em;
-        font-size:43px;
-        padding: 22px 22px 22px 22px;
+        font-size:40px;
+        padding: 10px 10px 10px 10px;
     }
 }
 
@@ -91,7 +91,7 @@ html {
     }
 
     html{
-        background-size: cover
+        background-size: contain
     }
     .btn {
         display: inline-block;
