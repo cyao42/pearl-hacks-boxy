@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>LOST</h1>
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"> </script>
+        <link rel ="stylesheet" type="text/css" href="lostformstyle.css">
+        <link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="secondheaders">Enter a description of what you've lost, where you think you had it last, and around when you've lost it. We'll post it to the XXX and notify you if someone finds it!</div>
+        </header>
+        <main>
+          <table class="thetable">
+          <tr class="entertextlookrow">
+            <td>Item Title: </td>
+            <td>
+              <input type="text" id="itemshort" class="enterbox" placeholder="Item title"></input>
+            </td>
+          </td>
+          </tr>
+          <tr class="entertextlookrow">
+            <td>Description:</td>
+            <td>
+              <input type="text" id="itemdescrip" class="enterbox" placeholder="Item description"></input>
+            </td>
+          </tr>
+          <tr class="entertextlookrow">
+            <td>Name:</td>
+            <td>
+             <input type="text" class="enterbox" id="name"  placeholder="Your name"></input>
+            </td>
+          </tr>
+          <tr class="entertextlookrow">
+            <td>Phone Num:</td>
+            <td>
+              <input type="text" id="phonenumber" class="enterbox" placeholder="Your phone number"></input>
+            </td>
+          </tr>
+          <tr class="entertextlookrow">
+            <td>Email:</td>
+            <td>
+              <input type="text" class="enterbox" id="email" placeholder="Your email"></input>
+            </td>
+          </tr>
+        </table>
+        <div id="tags">
+          <span class="tag">Lost</span>
+          <input type="text" value="" placeholder="Tag where you think you lost it" />
+        </div>
+
+        <button id="findBtn">Find it!</button>
+
+        </main>
+        <script src="tags.js"> </script>
+    </body>
+</html>
